@@ -1,0 +1,92 @@
+/* navigation bar */
+
+body {margin: 0;} /* gets rid of white space around nav bar */
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    position: -webkit-sticky; /* for safari */
+    top: 0;
+  }
+  
+ul > li {
+    float: left;
+  }
+  
+ ul > li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+ul >  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #f37712;
+  } /* end of navbar css */
+
+  #home {
+    margin: auto;
+    width: 80%;
+    border: solid black 5px;
+    padding: 1em;
+    background-color: lightgray;
+    overflow: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+  }
+
+  blockquote {
+    font-weight: bold;
+    color: blue;
+  }
+
+.hobbies {
+  margin: auto;
+  width: 60%;
+  border: dashed black 5px;
+  padding: 1em;
+  background-color: lightgray;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: x-large;
+}
+
+table,th,td {
+  border: double black 5px;
+}
+
+table {
+  width:300px;
+  margin: auto;
+}
+
+th {
+  text-align: left;
+  padding: 0.2em;
+}
+
+td {
+  padding: 0.2em;
+}
+
+tbody tr:nth-of-type(odd) {
+  background-color: lightgray;
+}
+
+tbody tr:nth-last-of-type(even) {
+  background-color: gray;
+}
+
+tbody tr:hover {
+  cursor: pointer;
+  background-color: lightsteelblue;
+  color: aqua;
+}
